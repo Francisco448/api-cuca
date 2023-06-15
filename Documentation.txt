@@ -1,8 +1,6 @@
-para correr esta solucion tenes abrir un terminal integrado y ubicarte dentro de la carpeta api-cuca (por defecto te posiciona ahi)
-y escribir el siguiente comando
+para correr esta solucion 
 
-    npm run dev
-
+tenes abrir un terminal integrado y ubicarte dentro de la carpeta api-cuca (por defecto te posiciona ahi)
 crear una base de datos en mysql con el nombre que vos quieras
 completar el connection string de la carpeta mysql y el archivo .env
 ejecutar el comando 
@@ -10,6 +8,17 @@ ejecutar el comando
     npx prisma migrate dev 
 
 para aplicar las migraciones
+y escribir el siguiente comando
+
+    npm i
+
+para traer los node_modules
+y despues 
+
+    npm run dev
+
+para iniciar
+
 esta API se prueba con PostMan
 
 P/D:
