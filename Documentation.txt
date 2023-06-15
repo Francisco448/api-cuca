@@ -1,0 +1,27 @@
+para correr esta solucion tenes abrir un terminal integrado y ubicarte dentro de la carpeta api-cuca (por defecto te posiciona ahi)
+y escribir el siguiente comando
+
+    npm run dev
+
+crear una base de datos en mysql con el nombre que vos quieras
+completar el connection string de la carpeta mysql y el archivo .env
+ejecutar el comando 
+
+    npx prisma migrate dev 
+
+para aplicar las migraciones
+esta API se prueba con PostMan
+
+P/D:
+En caso que mysql tenga algun problema de tipo 
+    
+    ER_ACCESS_DENIED_ERROR
+
+ejecutar el siguiente comando
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'La contraseña que tengas';
+
+FLUSH PRIVILEGES;
+
+
+
